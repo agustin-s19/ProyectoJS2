@@ -1,0 +1,38 @@
+li{
+    display: block;
+    text-decoration: none; 
+    margin: auto;
+
+}
+
+img{
+    width:15%;
+    height: 15%;
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    align-content: center;
+
+}
+
+nav{
+    display: flex;
+    background-color: gray;
+    height: 50px;
+
+}
+
+#buscador{
+   
+    align-items: center;
+    align-content: center;
+    display: flex;
+    height: 20px;
+    width: 600px;
+    margin-right: 400px;
+
+}
+body{
+    background-color: black;
+}
+
