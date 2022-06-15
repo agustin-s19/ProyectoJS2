@@ -1,0 +1,18 @@
+/* Lista de videos */
+#video-list {
+  margin-left: 25px;
+}
+
+#video-list li {
+  list-style: none;
+  margin-bottom: 10px;
+  display: flex;
+}
+#video-list h3 {
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.miniatures {
+  width: 180px;
+}

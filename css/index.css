@@ -1,0 +1,23 @@
+@import "./nav.css";
+@import "./video.css";
+@import "./video-list.css";
+
+:root {
+  --fondo-oscuro: rgb(27, 27, 27);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  background-color: var(--fondo-oscuro);
+  color: white;
+}
+
+main {
+  display: flex;
+  margin: 25px 0 80px 70px;
+}

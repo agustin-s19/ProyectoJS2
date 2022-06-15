@@ -4,51 +4,122 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Proyecto 2</title>
-    <link rel="stylesheet" href="styles.css">
-    
-</head>
+    <title>Proyecto 2 - Reproductor Multimedia</title>
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
 
-<body>
-    <div id="home"> 
-        <nav>
-            <a href="index.html"><li><img src="assets/youtube-svgrepo-com.svg" alt="Logo"></li></a>
-            <li>
-                <input type="select" value="" id="buscador" placeholder="Busca un video">
-            </li>
-        </nav>
-    </div>
-    <div id="container">
+  <body>
+    <header id="home">
+      <a href="./index.html"
+        ><img src="assets/youtube-svgrepo-com.svg" alt="Logo"
+      /></a>
+      <input type="select" placeholder="Buscar un video" />
+    </header>
+
+    <main>
       <div id="video-container">
-         <video id="videos" controls>
-            <source src="./assets/videoplayback.mp4" type="video/mp4">
-         </video>  
-         <h2>Titulo</h2>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis perferendis, cupiditate vero consectetur 
-          praesentium inventore tempore expedita! Dolore reiciendis culpa ea sequi explicabo pariatur ex, ipsa ad iure
-          iste suscipit?</p> 
+        <div class="video-player">
+          <video id="video" controls>
+            <source src="./assets/videoplayback.mp4" type="video/mp4" />
+            <p>
+              Tu navegador no soporta el video
+              <a href="./assets/videoplayback.mp4">Descargar</a>
+            </p>
+          </video>
+          <input
+            type="range"
+            id="control-range"
+            min="0"
+            max="100"
+            step="0.1"
+            value="0"
+          />
+          <div class="control-buttons">
+            <div class="simple-controls">
+              <img
+                class="control-icons"
+                id="backwardSeconds"
+                src="https://img.icons8.com/fluency/2x/rewind.png"
+                alt="backwardSeconds"
+              />
+              <img
+                class="control-icons"
+                id="play"
+                src="https://img.icons8.com/fluency/2x/play.png"
+                alt="play"
+              />
+              <img
+                class="control-icons"
+                id="forwardSeconds"
+                src="https://img.icons8.com/fluency/2x/fast-forward.png"
+                alt="forwardSeconds"
+              />
+              <img
+                class="control-icons"
+                id="volume"
+                src="https://cdn-icons.flaticon.com/png/512/4194/premium/4194895.png?token=exp=1655324545~hmac=1829e96ed202e9a3f0058c112a5efc2f"
+                alt="volume"
+              />
+              <input
+                type="range"
+                id="controlVolume"
+                min="0"
+                max="100"
+                step="0.1"
+                value="100"
+              />
+            </div>
+            <img
+              class="control-icons"
+              id="fullScreen"
+              src="https://img.icons8.com/fluency/344/repeat.png"
+              alt="fullScreen"
+            />
+          </div>
         </div>
-        <section>
-          <ul>
-            <li>
-            <h1>Video</h1>
-            <p>Titulo</p>
-            </li>
-            <li>
-              <h1>Video</h1>
-              <p>Titulo</p>
-              </li>
-              <li>
-                <h1>Video</h1>
-                <p>Titulo</p>
-              </li>
-              <li>
-                <h1>Video</h1>
-                <p>Titulo</p>
-              </li>
-          </ul>
-        </section>
-    </div>
+        <div class="video-description">
+          <h2>Titulo</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+            mollitia quibusdam eligendi quas possimus dicta laudantium,
+            laboriosam incidunt dolores animi repellendus. Adipisci voluptas
+            laborum temporibus unde facere ipsam incidunt. In?
+          </p>
+        </div>
+      </div>
+      <section id="video-list">
+        <ul>
+          <li>
+            <img
+              class="miniatures"
+              src="https://i.ytimg.com/vi/4zAThXFOy2c/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB13vom0oUm5Z3VhLQKCK1EFzA-Gg"
+            />
+            <h3>Titulo del video</h3>
+          </li>
+          <li>
+            <img
+              class="miniatures"
+              src="https://i.ytimg.com/vi/KGczofguB0c/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBMFdSoGkCiwFTfrjDP9t-PTn018g"
+            />
+            <h3>Titulo del video</h3>
+          </li>
+          <li>
+            <img
+              class="miniatures"
+              src="https://i.ytimg.com/vi/_XLHl3Z9hKo/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCxNnF9P8SJi4MF-zCuHhjPqb6Xfg"
+            />
+            <h3>Titulo del video</h3>
+          </li>
+          <li>
+            <img
+              class="miniatures"
+              src="https://i.ytimg.com/vi/3Wf29RiKp70/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBArXQL8h_sLuC05-02rFFct7rX3Q"
+            />
+            <h3>Titulo del video</h3>
+          </li>
+        </ul>
+      </section>
+    </main>
 
     <script src="index.js"></script>
   </body>
