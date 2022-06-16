@@ -20,7 +20,33 @@
   margin: 0 0 38px 5px;
   left: 0;
   bottom: 10px;
+  color: black;
+  background: grey ;
+  appearance: none;
+  border-radius: 5px;
+  height: 5px;
+  opacity: 0.7;
+  
 }
+#control-range:hover {
+
+  opacity: 1;
+
+}
+
+#control-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: red;
+  cursor: pointer;
+
+}
+
+
+
 
 .control-buttons {
   width: 95%;
@@ -36,14 +62,14 @@
   width: 20px;
   height: 20px;
   margin-left: 15px;
-  background-color: white;
   padding: 5px;
   border-radius: 100%;
   transition: 0.2s;
+  background-color: rgb(38, 38, 38);
 }
 
 .control-icons:hover {
-  background-color: rgb(23, 23, 23);
+  background-color: rgb(78, 78, 78);
   cursor: pointer;
 }
 
@@ -54,8 +80,25 @@
 #controlVolume {
   position: absolute;
   margin-left: 5px;
-  margin-top: 7px;
+  margin-top: 10px;
+  background: grey ;
+  appearance: none;
+  border-radius: 5px;
+  height: 7px;
+  opacity: 1;
 }
+
+#controlVolume::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 12px;
+  height: 13px;
+  border-radius: 50%;
+  background: rgb(150, 150, 150);
+  cursor: pointer;
+
+}
+
 
 /* Descripción del video */
 .video-description {
