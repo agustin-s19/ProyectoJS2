@@ -28,10 +28,26 @@ control.oninput = (event) => {
 };
 
 backwardSeconds.onclick = () => {
-  video.currentTime = video.currentTime - 1;
+  video.currentTime = video.currentTime - 10;
 };
 forwardSeconds.onclick = () => {
-  video.currentTime = video.currentTime + 1;
+  video.currentTime = video.currentTime + 10;
+};
+
+// Pantalla Completa
+fullScreen.onclick = () => {
+  if (onFullscreen) {
+    onFullscreen = false;
+    document.exitFullscreen();
+  } else {
+    onFullscreen = true;
+    videoContainer.requestFullscreen();
+  }
+};
+
+// Volumen
+controlVolume.oninput = (event) => {
+  video.volume = event.target.value / 100;
 };
 
 // Play y Pausa
@@ -48,21 +64,5 @@ video.onclick = () => {
     video.play();
   } else {
     video.pause();
-  }
-};
-
-// Volumen
-controlVolume.oninput = (event) => {
-  video.volume = event.target.value / 100;
-};
-
-// Pantalla Completa
-fullScreen.onclick = () => {
-  if (onFullscreen) {
-    onFullscreen = false;
-    document.exitFullscreen();
-  } else {
-    onFullscreen = true;
-    videoContainer.requestFullscreen();
   }
 };
