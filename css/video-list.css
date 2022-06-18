@@ -2,11 +2,15 @@
 #video-list {
   margin-left: 25px;
 }
-
+#video-list li a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  padding-right: 20px;
+}
 #video-list li {
   list-style: none;
-  margin-bottom: 10px;
-  display: flex;
+  margin-bottom: 15px;
 }
 #video-list h3 {
   margin-top: 5px;

@@ -15,6 +15,7 @@ body {
   width: 100vw;
   background-color: var(--fondo-oscuro);
   color: white;
+  overflow-x: hidden;
 }
 
 main {

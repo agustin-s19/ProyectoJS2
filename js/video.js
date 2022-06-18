@@ -1,3 +1,4 @@
+//Controles del video en reproducción
 const video = document.getElementById("video");
 const videoContainer = document.querySelector(".video-player");
 
