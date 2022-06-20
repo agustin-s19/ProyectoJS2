@@ -99,9 +99,6 @@ a {
   header input {
     margin-right: 5%;
   }
-  header img:first-child {
-    margin-left: 25px;
-  }
 }
 
 @media (min-width: 1150px) {

@@ -48,7 +48,7 @@
   align-items: center;
   position: absolute;
   bottom: 0;
-  margin: 0 0 10px 30px;
+  margin: 0 0 10px 3%;
 }
 
 .control-icons {
@@ -72,6 +72,7 @@
 
 #controlVolume {
   position: absolute;
+  width: 17%;
   margin-left: 5px;
   margin-top: 10px;
   background: grey;
@@ -93,7 +94,7 @@
 
 /* Descripción del video */
 .video-description {
-  margin-left: 5px;
+  margin: 0 5px;
 }
 .video-description h2 {
   margin: 15px 0;

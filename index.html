@@ -10,20 +10,25 @@
 
   <body>
     <header id="home">
-      <a href="./index.html"
+      <a href="./main.html"
         ><img src="assets/youtube-svgrepo-com.svg" alt="Logo"
       /></a>
       <input type="select" placeholder="Buscar un video" />
+      <img
+        id="search-icon"
+        class="control-icons"
+        src="https://cdn-icons-png.flaticon.com/512/151/151773.png"
+      />
     </header>
 
     <main>
       <div id="video-container">
         <div class="video-player">
           <video id="video" controls>
-            <source src="./assets/videoplayback.mp4" type="video/mp4" />
+            <source src="./assets/video0.mp4" type="video/mp4" />
             <p>
               Tu navegador no soporta el video
-              <a href="./assets/videoplayback.mp4">Descargar</a>
+              <a href="./assets/video0.mp4">Descargar</a>
             </p>
           </video>
           <input
@@ -78,12 +83,18 @@
           </div>
         </div>
         <div class="video-description">
-          <h2>Titulo</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
-            mollitia quibusdam eligendi quas possimus dicta laudantium,
-            laboriosam incidunt dolores animi repellendus. Adipisci voluptas
-            laborum temporibus unde facere ipsam incidunt. In?
+          <h2 id="video-title">Noche Azul - Parafernalia</h2>
+          <p id="video-text">
+            Parafernalia ha participado en varios concursos de maquetas,
+            destacando su posicion entre los ultimos finalistas de
+            belladurmiente.com y ganando el consurso "Demo Cadena 100
+            Extremusika 2007" cuyo premio consistia en abrir este gran festival.
+            <br /><br />
+            En sus años de vida parafernalia ha ofrecido una gran cantidad de
+            conciertos, lo que les ha llevado a recorrer casi toda Andalucía e
+            importantes conciertos fuera como el ya mencionado Extremusika, y
+            compartir cartel con grupos como Los Aslandticos, La Excepción,
+            Macaco, Eskorzo.
           </p>
         </div>
       </div>

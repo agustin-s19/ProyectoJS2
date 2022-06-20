@@ -7,8 +7,10 @@ const control = document.getElementById("control-range");
 const backwardSeconds = document.getElementById("backwardSeconds");
 const forwardSeconds = document.getElementById("forwardSeconds");
 const fullScreen = document.getElementById("fullScreen");
+const mute = document.getElementById("volume");
 const controlVolume = document.getElementById("controlVolume");
 
+let actualVolume = 1;
 let onFullscreen = false;
 let duration;
 
@@ -48,7 +50,20 @@ fullScreen.onclick = () => {
 
 // Volumen
 controlVolume.oninput = (event) => {
+  if (video.muted) video.muted = false;
   video.volume = event.target.value / 100;
+  actualVolume = video.volume;
+};
+
+mute.onclick = () => {
+  if (video.muted) {
+    video.muted = false;
+    video.volume = actualVolume;
+    controlVolume.value = actualVolume * 100;
+  } else {
+    video.muted = true;
+    controlVolume.value = 0;
+  }
 };
 
 // Play y Pausa

@@ -1,84 +1,49 @@
 [
   {
+    "id": 0,
+    "url": "./assets/video0.mp4",
+    "image": "./assets/video0-port.png",
+    "title": "Noche azul - Parafernalia",
+    "description": "Parafernalia ha participado en varios concursos de maquetas, destacando su posicion entre los ultimos finalistas de belladurmiente.com y ganando el consurso 'Demo Cadena 100 Extremusika 2007' cuyo premio consistia en abrir este gran festival. <br><br> En sus años de vida parafernalia ha ofrecido una gran cantidad de conciertos, lo que les ha llevado a recorrer casi toda Andalucía e importantes conciertos fuera como el ya mencionado Extremusika, y compartir cartel con grupos como Los Aslandticos, La Excepción, Macaco, Eskorzo."
+  },
+  {
     "id": 1,
-    "url": "https://www.youtube.com/watch?v=zj_3ZW3mQUo",
+    "url": "./assets/video1.mp4",
     "image": "https://i.ytimg.com/vi/zj_3ZW3mQUo/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBlYbZAk9ZvZddaVdbzlbCqPUe-fQ",
     "title": "Rolitas chidas para escuchar a las 3 am - Rola Music Fest",
     "description": "Rola Music Fest es el primer festival de tres días de música en español realizado en los Estados Unidos. La primera edición del festival se celebró en la ciudad de Miami, Florida, el 11, 12 y 13 de noviembre del año 2011. Fundado por Javier Maggiolo y producido por la compañía Imagine Entertainment Group. Rola Music Fest es un festival de música al aire libre, dirigido al público hispano que busca presentar a los máximos exponentes de la música en español. El primer Rola Music Fest se celebró durante los días 11, 12 y 13 de noviembre del año 2011 en el Klipsch Ampitheater (Bayfront Park) de la ciudad de Miami. El festival junto al aval de Amnistía Internacional, busca concientizar a los participantes sobre los derechos humanos y exaltar las raíces hispanas por medio de la música.ROLA es la abreviación de las palabras 'Rock Latino'. La palabra ROLA en el coloquio mexicano significa canción y los colombianos la utilizan para denominar a las mujeres oriundas de la ciudad de Bogotá."
   },
   {
     "id": 2,
-    "url": "https://www.youtube.com/watch?v=dCXyPP4nei0",
+    "url": "./assets/video2.mp4",
     "image": "https://i.ytimg.com/vi/dCXyPP4nei0/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD-rBrok-Vy4JoS4WP_PCSDfYyvcA",
     "title": "Minions celebrando Navidad",
     "description": "En los años 70, Gru crece siendo un gran admirador de Los salvajes seis, un supergrupo de villanos. Para demostrarles que puede ser malvado, Gru idea un plan con la esperanza de formar parte de la banda. Por suerte, cuenta con la ayuda de sus fieles seguidores, los Minions, siempre dispuestos a sembrar el caos."
   },
   {
     "id": 3,
-    "url": "https://www.youtube.com/watch?v=9O0mVOzw7HE",
+    "url": "./assets/video3.mp4",
     "image": "https://i.ytimg.com/vi/9O0mVOzw7HE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDBFKvz0WzgBNGP1yBS1TJj2IgjDQ",
     "title": "Videos relajantes - musica chill",
     "description": "Videos relajantes con musica chill and lofi de fondo"
   },
   {
     "id": 4,
-    "url": "https://www.youtube.com/watch?v=VuzfFTFkxko",
+    "url": "./assets/video4.mp4",
     "image": "https://i.ytimg.com/vi/VuzfFTFkxko/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLARUouHDx29-FtvvFBBltShigxYKw",
     "title": "Discurso de Otis en el baile de fin de año || Sex Education",
     "description": "Discurso de Otis en el baile de fin de año. Disponible en Netflix. Sex Education"
   },
   {
     "id": 5,
-    "url": "https://www.youtube.com/watch?v=OpkC2NA2rPU",
+    "url": "./assets/video5.mp4",
     "image": "https://i.ytimg.com/vi/OpkC2NA2rPU/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDu7Klt1q6E6xEL-OLmPDTnFjFxBw",
     "title": "Música para status Funk || Video y letra",
     "description": "El funk es un género musical que nació entre mediados y finales de los años 1960, cuando músicos principalmente afroamericanos fusionaron soul, jazz, ritmos latinos y R&B dando lugar a una nueva forma musical rítmica y bailable."
   },
   {
     "id": 6,
-    "url": "https://www.youtube.com/watch?v=N3Cu0ryegtU",
-    "image": "https://i.ytimg.com/vi/N3Cu0ryegtU/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDPCNGhiQgjBJymS6mRL2nc7_ZiUQ",
-    "title": "Toy Story: Mira un extraterrestre!",
-    "description": "Los juguetes de Andy, un niño de seis años, temen que un nuevo regalo les sustituya en el corazón de su dueño. Woody, un vaquero que ha sido hasta ahora el juguete favorito, trata de tranquilizarlos hasta que aparece Buzz Lightyear. Lo peor es que el arrogante Buzz se cree que es una auténtico astronauta en plena misión para regresar a su planeta."
-  },
-  {
-    "id": 1,
-    "url": "https://www.youtube.com/watch?v=zj_3ZW3mQUo",
-    "image": "https://i.ytimg.com/vi/zj_3ZW3mQUo/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBlYbZAk9ZvZddaVdbzlbCqPUe-fQ",
-    "title": "Rolitas chidas para escuchar a las 3 am - Rola Music Fest",
-    "description": "Rola Music Fest es el primer festival de tres días de música en español realizado en los Estados Unidos. La primera edición del festival se celebró en la ciudad de Miami, Florida, el 11, 12 y 13 de noviembre del año 2011. Fundado por Javier Maggiolo y producido por la compañía Imagine Entertainment Group. Rola Music Fest es un festival de música al aire libre, dirigido al público hispano que busca presentar a los máximos exponentes de la música en español. El primer Rola Music Fest se celebró durante los días 11, 12 y 13 de noviembre del año 2011 en el Klipsch Ampitheater (Bayfront Park) de la ciudad de Miami. El festival junto al aval de Amnistía Internacional, busca concientizar a los participantes sobre los derechos humanos y exaltar las raíces hispanas por medio de la música.ROLA es la abreviación de las palabras 'Rock Latino'. La palabra ROLA en el coloquio mexicano significa canción y los colombianos la utilizan para denominar a las mujeres oriundas de la ciudad de Bogotá."
-  },
-  {
-    "id": 2,
-    "url": "https://www.youtube.com/watch?v=dCXyPP4nei0",
-    "image": "https://i.ytimg.com/vi/dCXyPP4nei0/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD-rBrok-Vy4JoS4WP_PCSDfYyvcA",
-    "title": "Minions celebrando Navidad",
-    "description": "En los años 70, Gru crece siendo un gran admirador de Los salvajes seis, un supergrupo de villanos. Para demostrarles que puede ser malvado, Gru idea un plan con la esperanza de formar parte de la banda. Por suerte, cuenta con la ayuda de sus fieles seguidores, los Minions, siempre dispuestos a sembrar el caos."
-  },
-  {
-    "id": 3,
-    "url": "https://www.youtube.com/watch?v=9O0mVOzw7HE",
-    "image": "https://i.ytimg.com/vi/9O0mVOzw7HE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDBFKvz0WzgBNGP1yBS1TJj2IgjDQ",
-    "title": "Videos relajantes - musica chill",
-    "description": "Videos relajantes con musica chill and lofi de fondo"
-  },
-  {
-    "id": 4,
-    "url": "https://www.youtube.com/watch?v=VuzfFTFkxko",
-    "image": "https://i.ytimg.com/vi/VuzfFTFkxko/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLARUouHDx29-FtvvFBBltShigxYKw",
-    "title": "Discurso de Otis en el baile de fin de año || Sex Education",
-    "description": "Discurso de Otis en el baile de fin de año. Disponible en Netflix. Sex Education"
-  },
-  {
-    "id": 5,
-    "url": "https://www.youtube.com/watch?v=OpkC2NA2rPU",
-    "image": "https://i.ytimg.com/vi/OpkC2NA2rPU/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDu7Klt1q6E6xEL-OLmPDTnFjFxBw",
-    "title": "Música para status Funk || Video y letra",
-    "description": "El funk es un género musical que nació entre mediados y finales de los años 1960, cuando músicos principalmente afroamericanos fusionaron soul, jazz, ritmos latinos y R&B dando lugar a una nueva forma musical rítmica y bailable."
-  },
-  {
-    "id": 6,
-    "url": "https://www.youtube.com/watch?v=N3Cu0ryegtU",
+    "url": "./assets/video6.mp4",
     "image": "https://i.ytimg.com/vi/N3Cu0ryegtU/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDPCNGhiQgjBJymS6mRL2nc7_ZiUQ",
     "title": "Toy Story: Mira un extraterrestre!",
     "description": "Los juguetes de Andy, un niño de seis años, temen que un nuevo regalo les sustituya en el corazón de su dueño. Woody, un vaquero que ha sido hasta ahora el juguete favorito, trata de tranquilizarlos hasta que aparece Buzz Lightyear. Lo peor es que el arrogante Buzz se cree que es una auténtico astronauta en plena misión para regresar a su planeta."
