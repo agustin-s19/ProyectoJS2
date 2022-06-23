@@ -14,14 +14,20 @@ fetch(urlAPI)
       let li = document.createElement("li");
       let a = document.createElement("a");
 
-      li.onclick = () => {
-        videoPlaying.src = `${video.url}`;
-        videoTitle.innerHTML = `${video.title}`;
-        videoText.innerHTML = `${video.description}`;
-        playIcono.src =
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/OOjs_UI_icon_pause.svg/768px-OOjs_UI_icon_pause.svg.png";
-        videoPlaying.play();
-      };
+      if (videoPlaying) {
+        li.onclick = () => {
+          videoPlaying.src = `${video.url}`;
+          videoTitle.innerHTML = `${video.title}`;
+          videoText.innerHTML = `${video.description}`;
+          playIcono.src =
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/OOjs_UI_icon_pause.svg/768px-OOjs_UI_icon_pause.svg.png";
+          videoPlaying.play();
+        };
+      } else {
+        li.onclick = () => {
+          window.open("../index.html", "_self");
+        };
+      }
 
       let img = document.createElement("img");
       img.src = `${video.image}`;
