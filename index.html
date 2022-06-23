@@ -8,100 +8,20 @@
     <link rel="stylesheet" href="./css/index.css" />
     <link rel="shortcut icon" href="#" />
   </head>
-
   <body>
     <header id="home">
-      <a href="./main.html"
+      <a href="./index.html"
         ><img src="assets/youtube-svgrepo-com.svg" alt="Logo"
       /></a>
       <input type="select" placeholder="Buscar un video" />
       <img
-        id="search-icon"
         class="control-icons"
         src="https://cdn-icons-png.flaticon.com/512/151/151773.png"
       />
     </header>
-
     <main>
-      <div id="video-container">
-        <div class="video-player">
-          <video id="video" controls>
-            <source src="./assets/video0.mp4" type="video/mp4" />
-            <p>
-              Tu navegador no soporta el video
-              <a href="./assets/video0.mp4">Descargar</a>
-            </p>
-          </video>
-          <input
-            type="range"
-            id="control-range"
-            min="0"
-            max="100"
-            step="0.1"
-            value="0"
-          />
-          <div class="control-buttons">
-            <div class="simple-controls">
-              <img
-                class="control-icons"
-                id="backwardSeconds"
-                src="https://www.svgrepo.com/show/351747/backward.svg"
-                alt="backwardSeconds"
-              />
-              <img
-                class="control-icons"
-                id="play"
-                src="https://svgsilh.com/svg/1632434.svg"
-                alt="play"
-              />
-              <img
-                class="control-icons"
-                id="forwardSeconds"
-                src="https://www.svgrepo.com/show/15996/fast-forward-button.svg"
-                alt="forwardSeconds"
-              />
-              <img
-                class="control-icons"
-                id="volume"
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Speaker_Icon.svg/500px-Speaker_Icon.svg.png"
-                alt="volume"
-              />
-              <input
-                type="range"
-                id="controlVolume"
-                min="0"
-                max="100"
-                step="0.1"
-                value="100"
-              />
-            </div>
-            <img
-              class="control-icons"
-              id="fullScreen"
-              src="https://www.svgrepo.com/show/36283/full-screen.svg"
-              alt="fullScreen"
-            />
-          </div>
-        </div>
-        <div class="video-description">
-          <h2 id="video-title">Noche Azul - Parafernalia</h2>
-          <p id="video-text">
-            Parafernalia ha participado en varios concursos de maquetas,
-            destacando su posicion entre los ultimos finalistas de
-            belladurmiente.com y ganando el consurso "Demo Cadena 100
-            Extremusika 2007" cuyo premio consistia en abrir este gran festival.
-            <br /><br />
-            En sus años de vida parafernalia ha ofrecido una gran cantidad de
-            conciertos, lo que les ha llevado a recorrer casi toda Andalucía e
-            importantes conciertos fuera como el ya mencionado Extremusika, y
-            compartir cartel con grupos como Los Aslandticos, La Excepción,
-            Macaco, Eskorzo.
-          </p>
-        </div>
-      </div>
       <section id="video-list"></section>
     </main>
     <script src="./js/list.js"></script>
-    <script src="./js/video.js"></script>
   </body>
 </html>

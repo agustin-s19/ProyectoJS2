@@ -16,6 +16,15 @@ let actualVolume = 1;
 let onFullscreen = false;
 let duration;
 
+if (sessionStorage.videoTitle) {
+  video.src = sessionStorage.getItem("videoSrc");
+  videoTitle.innerHTML = sessionStorage.getItem("videoTitle");
+  videoText.innerHTML = sessionStorage.getItem("videoDescription");
+  playIcon.src =
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/OOjs_UI_icon_pause.svg/768px-OOjs_UI_icon_pause.svg.png";
+  video.play();
+}
+
 video.removeAttribute("controls");
 
 video.addEventListener("loadeddata", (event) => {

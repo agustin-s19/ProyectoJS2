@@ -16,6 +16,10 @@ fetch(urlAPI)
 
       if (videoPlaying) {
         li.onclick = () => {
+          window.scroll({
+            top: 0,
+            behavior: "smooth",
+          });
           videoPlaying.src = `${video.url}`;
           videoTitle.innerHTML = `${video.title}`;
           videoText.innerHTML = `${video.description}`;
@@ -25,7 +29,10 @@ fetch(urlAPI)
         };
       } else {
         li.onclick = () => {
-          window.open("../index.html", "_self");
+          sessionStorage.setItem("videoSrc", `${video.url}`);
+          sessionStorage.setItem("videoTitle", `${video.title}`);
+          sessionStorage.setItem("videoDescription", `${video.description}`);
+          window.open("../player.html", "_self");
         };
       }
 
