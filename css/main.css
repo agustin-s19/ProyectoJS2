@@ -54,6 +54,10 @@ a {
   flex-direction: column;
 }
 
+#video-list li:hover {
+  cursor: pointer;
+}
+
 #video-list img {
   width: 100%;
 }

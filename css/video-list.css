@@ -12,6 +12,11 @@
   list-style: none;
   margin-bottom: 15px;
 }
+
+#video-list li:hover {
+  cursor: pointer;
+}
+
 #video-list h3 {
   margin-top: 5px;
   margin-left: 10px;

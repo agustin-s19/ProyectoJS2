@@ -2,6 +2,10 @@
 const HTMLResponse = document.getElementById("video-list");
 const ul = document.createElement("ul");
 const urlAPI = "./videos.json";
+const videoPlaying = document.getElementById("video");
+const videoTitle = document.getElementById("video-title");
+const videoText = document.getElementById("video-text");
+const playIcono = document.getElementById("play");
 
 fetch(urlAPI)
   .then((response) => response.json())
@@ -9,7 +13,15 @@ fetch(urlAPI)
     videos.forEach((video) => {
       let li = document.createElement("li");
       let a = document.createElement("a");
-      a.href = `index.html/${video.id}`;
+
+      li.onclick = () => {
+        videoPlaying.src = `${video.url}`;
+        videoTitle.innerHTML = `${video.title}`;
+        videoText.innerHTML = `${video.description}`;
+        playIcono.src =
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/OOjs_UI_icon_pause.svg/768px-OOjs_UI_icon_pause.svg.png";
+        videoPlaying.play();
+      };
 
       let img = document.createElement("img");
       img.src = `${video.image}`;
