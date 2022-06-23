@@ -9,7 +9,7 @@ fetch(urlAPI)
     videos.forEach((video) => {
       let li = document.createElement("li");
       let a = document.createElement("a");
-      a.href = `${video.url}`;
+      a.href = `index.html/${video.id}`;
 
       let img = document.createElement("img");
       img.src = `${video.image}`;
