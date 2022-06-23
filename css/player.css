@@ -4,6 +4,7 @@
 
 :root {
   --fondo-oscuro: rgb(27, 27, 27);
+  --non-hurting-color-white: rgba(251, 251, 251, 0.9);
 }
 
 * {
@@ -14,8 +15,10 @@
 body {
   width: 100vw;
   background-color: var(--fondo-oscuro);
-  color: white;
+  color: var(--non-hurting-color-white);
   overflow-x: hidden;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 0.8rem;
 }
 
 #search-icon {

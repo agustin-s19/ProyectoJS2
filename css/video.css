@@ -58,11 +58,11 @@
   padding: 5px;
   border-radius: 100%;
   transition: 0.2s;
-  background-color: rgb(38, 38, 38);
+  background-color: rgb(78, 78, 78);
 }
 
 .control-icons:hover {
-  background-color: rgb(78, 78, 78);
+  background-color: rgb(125, 125, 126);
   cursor: pointer;
 }
 
@@ -98,5 +98,8 @@
 }
 .video-description h2 {
   margin: 15px 0;
+  color: white;
 }
-
+.video-description p {
+  font-size: 0.92rem;
+}

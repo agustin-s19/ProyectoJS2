@@ -4,13 +4,14 @@
 }
 #video-list li a {
   text-decoration: none;
-  color: white;
+  color: var(--non-hurting-color-white);
   display: flex;
   padding-right: 20px;
 }
 #video-list li {
   list-style: none;
   margin-bottom: 15px;
+  margin-right: 10px;
 }
 
 #video-list li:hover {
