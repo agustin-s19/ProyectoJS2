@@ -7,11 +7,15 @@
   width: 100%;
   position: relative;
   user-select: none;
+  
 }
 
 #video {
   width: 100%;
+  z-index: 0;
 }
+
+
 
 /* Controles del video */
 #control-range {

@@ -11,7 +11,7 @@ const forwardSeconds = document.getElementById("forwardSeconds");
 const fullScreen = document.getElementById("fullScreen");
 const mute = document.getElementById("volume");
 const controlVolume = document.getElementById("controlVolume");
-
+const allControls = document.getElementById("allcontrols")
 let actualVolume = 1;
 let onFullscreen = false;
 let duration;
@@ -23,6 +23,33 @@ if (sessionStorage.videoTitle) {
   playIcon.src =
     "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/OOjs_UI_icon_pause.svg/768px-OOjs_UI_icon_pause.svg.png";
   video.play();
+}
+
+
+
+
+// function visibility(){
+//   if (video.onmouseover == true){
+//     video.style.opacity = 1;
+//     alert("Entra")
+//   }else if(video.onmouseover == false){
+//     video.style.opacity = 0
+//     alert("sale")
+//   }
+// }
+
+video.onmouseenter = () =>{
+    allControls.style.opacity = 1
+    console.log("entra video")
+}
+
+allControls.onmouseenter = () =>{
+  allControls.style.opacity = 1
+  console.log("entra en el control")
+}
+video.onmouseout = () =>{
+  allControls.style.opacity = 0
+  console.log("sale del control")
 }
 
 video.removeAttribute("controls");
