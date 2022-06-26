@@ -11,7 +11,12 @@ const forwardSeconds = document.getElementById("forwardSeconds");
 const fullScreen = document.getElementById("fullScreen");
 const mute = document.getElementById("volume");
 const controlVolume = document.getElementById("controlVolume");
-const allControls = document.getElementById("allcontrols")
+const allControls = document.getElementById("allcontrols");
+const currentTimeElem = document.querySelector(".current-time");
+const totalTimeElem = document.querySelector(".total-time");
+
+
+
 let actualVolume = 1;
 let onFullscreen = false;
 let duration;
@@ -28,28 +33,15 @@ if (sessionStorage.videoTitle) {
 
 
 
-// function visibility(){
-//   if (video.onmouseover == true){
-//     video.style.opacity = 1;
-//     alert("Entra")
-//   }else if(video.onmouseover == false){
-//     video.style.opacity = 0
-//     alert("sale")
-//   }
-// }
-
 video.onmouseenter = () =>{
     allControls.style.opacity = 1
-    console.log("entra video")
 }
 
 allControls.onmouseenter = () =>{
   allControls.style.opacity = 1
-  console.log("entra en el control")
 }
 video.onmouseout = () =>{
   allControls.style.opacity = 0
-  console.log("sale del control")
 }
 
 video.removeAttribute("controls");
@@ -85,6 +77,33 @@ fullScreen.onclick = () => {
     videoContainer.requestFullscreen();
   }
 };
+
+// Duracion
+
+video.addEventListener("timeupdate", () =>{
+  currentTimeElem.textContent = formatDuration(video.currentTime)
+})
+
+video.addEventListener("loadeddata", () =>{
+  totalTimeElem.textContent = formatDuration(video.duration)
+})
+
+ 
+const leadingZeroFormatter = new Intl.NumberFormat(undefined,{
+  minimumIntegerDigits: 2,
+})
+function formatDuration(time){
+  const seconds = Math.floor(time % 60)
+  const minutes = Math.floor(time / 60 ) % 60
+  const hours = Math.floor(time / 3600 )
+  if(hours === 0){
+    return `${minutes}:${leadingZeroFormatter.format(seconds)}`
+  }
+}
+
+
+
+
 
 // Volumen
 controlVolume.oninput = (event) => {

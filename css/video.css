@@ -12,9 +12,14 @@
 
 #video {
   width: 100%;
-  z-index: 0;
 }
-
+/*Duracion*/
+.duration-container{
+   display: flex;
+   align-items: center;
+   gap: .25rem;
+   flex-grow: 1.6;
+}
 
 
 /* Controles del video */
@@ -72,19 +77,29 @@
 
 .control-icons:first-child {
   margin-left: 0;
+  
+}
+/*Volumen */
+
+.volume-container{
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+  margin-bottom: auto;
 }
 
-#controlVolume {
-  position: absolute;
-  width: 17%;
-  margin-left: 5px;
-  margin-top: 10px;
-  background: grey;
-  appearance: none;
-  border-radius: 5px;
-  height: 7px;
-  opacity: 1;
+.volume.slider {
+  width: 0;
+  transform-origin: left;
+
+  transform: scaleX(0)
 }
+
+
+.volume-container:hover .volume-slider{
+  width: 100px;
+}
+
 
 #controlVolume::-webkit-slider-thumb {
   -webkit-appearance: none;

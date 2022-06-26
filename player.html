@@ -61,6 +61,9 @@
                 src="https://www.svgrepo.com/show/15996/fast-forward-button.svg"
                 alt="forwardSeconds"
               />
+              
+            </div>
+            <div class="volume-container">
               <img
                 class="control-icons"
                 id="volume"
@@ -68,14 +71,21 @@
                 alt="volume"
               />
               <input
-                type="range"
-                id="controlVolume"
-                min="0"
-                max="100"
-                step="0.1"
-                value="100"
-              />
+              type="range"
+              id="controlVolume"
+              class="volume-slider"
+              min="0"
+              max="100"
+              step="any"
+              value="100"
+            />
             </div>
+            <div class="duration-container">
+              <div class="current-time"></div>
+              /
+              <div class="total-time"></div>
+            </div>
+              
             <img
               class="control-icons"
               id="fullScreen"
@@ -83,6 +93,7 @@
               alt="fullScreen"
             />
           </div>
+          
         </div>
         </div>
         <div class="video-description">
