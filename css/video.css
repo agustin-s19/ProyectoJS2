@@ -90,6 +90,14 @@
   margin-bottom: auto;
 }
 
+#controlVolume {
+  margin-left: 5px;
+  background: grey;
+  appearance: none;
+  border-radius: 5px;
+  height: 7px;
+}
+
 #controlVolume::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
