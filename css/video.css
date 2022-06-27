@@ -12,6 +12,9 @@
 #video {
   width: 100%;
 }
+
+
+
 /*Duracion*/
 .duration-container {
   width: fit-content;
@@ -90,7 +93,6 @@
   margin-bottom: auto;
 }
 
-<<<<<<< HEAD
 .volume-slider{
   width: 0;
   transform-origin: left;
@@ -103,16 +105,6 @@
   transform: scaleX(1);
 
 }
-=======
-#controlVolume {
-  margin-left: 5px;
-  background: grey;
-  appearance: none;
-  border-radius: 5px;
-  height: 7px;
-}
-
->>>>>>> 39e8983d49a7b820aebb188068e65d2e695dcaeb
 #controlVolume::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
